@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto+Mono:wght@100;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+.main-header {
+    background-image: url("Images/207005.jpg");
+    background-size: contain;
+}
