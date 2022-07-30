@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+    
+   }
+.main-header {
+    margin: 0;
+    padding: 0%;
+    background-image:url("../Images/Background\ Image\ 2.jpg");
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    }
+a.register:link { color:#FFF; text-decoration:none; font-weight:normal; }
+a.register:visited { color: #FFF; text-decoration:none; font-weight:normal; }
+a.register:hover { color: #FFF; text-decoration:underline; font-weight:normal; }
+a.register:active { color: #FFF; text-decoration:none; font-weight:normal; }
+        
+
