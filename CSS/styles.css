@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: monospace;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
    }
 .main-header {
@@ -13,9 +13,23 @@
     color: rgb(255, 255, 255);
     text-align: center;
     }
-a.register:link { color:#FFF; text-decoration:none; font-weight:normal; }
-a.register:visited { color: #FFF; text-decoration:none; font-weight:normal; }
-a.register:hover { color: #FFF; text-decoration:underline; font-weight:normal; }
-a.register:active { color: #FFF; text-decoration:none; font-weight:normal; }
+.nav a:link {
+    color:white;
+    text-decoration: none;
+}
+.nav a:visited {
+    color:white;
+    text-decoration: none;
+}
+.nav a:hover {
+    color:hotpink;
+}
+.body-nav a:link {
+    color:red
+}
+.body-nav a:visited {
+    color:hotpink
+}
+
         
 
